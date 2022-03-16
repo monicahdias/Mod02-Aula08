@@ -25,6 +25,12 @@
         </ul>
     </nav>
 
+    <% if(message != "") {  %>
+        <section id="message">
+            <p><%= message %></p> <span id="close">&times;</span>
+        </section>
+    <% }  %>
+
     <header>
         <article>
             <h1><%= titulo %></h1>
